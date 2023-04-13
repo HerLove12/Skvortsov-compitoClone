@@ -1,0 +1,30 @@
+  170  git commit -m -f "conflitto in corso"
+  171  git commit -m -F "conflitto in corso"
+  172  cd Desktop/
+  173  cd nuovoclone/
+  174  it clone https://github.com/sena-meucci/progettoStampa.git
+  175  git clone https://github.com/sena-meucci/progettoStampa.git
+  176  ls
+  177  cd progettoStampa/
+  178  git init
+  179  ls
+  180  nano stampa.cpp
+  181  git config --global user.name "HerLOve12"
+  182  git config --global user.email "alessandro.skvortsov@gmail.com"
+  183  git add -A
+  184  git commit -m "inserito nome"
+  185  git branch BugFix
+  186  ls
+  187  code .
+  188  git add -A
+  189  git commit -m "programma risolto"
+  190  git checkout master
+  191  git merge BugFix 
+  192  git branch
+  193  git merge BugFix
+  194  code .
+  195  git add -A
+  196  git branch -s BugFix 
+  197  git branch -d BugFix 
+  198  git branch
+  199  history 30 > comandi.txt
