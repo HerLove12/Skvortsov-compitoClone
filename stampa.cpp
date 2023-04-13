@@ -8,12 +8,13 @@ ALESSANDRO SKVORTSOV 13/04/2023
 using namespace std;
 int main()
 {
-  int i=10 ,n;
+  int n, i = 0;
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
-  while (i<n)
+  while(i < n)
   {
-   cout<<"Bada come la fuma"<<endl; 
+   cout<<"Bada come la fuma"<<endl;
+   i++;
   }
   system("pause");
 }
